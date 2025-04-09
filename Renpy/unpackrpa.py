@@ -34,7 +34,6 @@ def extract_rpa_archive():
 
 if __name__ == "__main__":
     print("=== RPA提取 ===")
-
-    if not extract_rpa_archive():
-        print("尝试添加-f参数指定版本,或选择rpaExtract工具"
-              "https://iwanplays.itch.io/rpaex")
+    print("如果提取失败，尝试添加-f参数指定版本,或选择rpaExtract工具"
+          "https://iwanplays.itch.io/rpaex")
+    extract_rpa_archive()
